@@ -1,6 +1,6 @@
 /// <reference types="cypress" />
 describe('this is my first test',()=>{
-     let searchItem=process.env(env.user);
+     let searchItem=process.env.user;
 before(()=>{
     //cy.visit('https://docs.cypress.io/guides/overview/why-cypress')
     // cy.fixture('testData').then((val)=>{
